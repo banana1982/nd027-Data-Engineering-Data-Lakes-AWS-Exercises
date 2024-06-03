@@ -9,6 +9,7 @@ spark = SparkSession \
 
 
 # This should print the default configuration
+print('sparkContext--------------------')
 print(
     spark.sparkContext.getConf().getAll()
 )    
@@ -19,11 +20,13 @@ user_log_df = spark.read.json(path)
 
 # See how Spark inferred the schema from the JSON file
 user_log_df.printSchema()
+print('spark-printSchema1--------------------')
 print(
     user_log_df.describe()
 )
 
 user_log_df.show(n=1)
+print('spark-printSchema2--------------------')
 print(
     user_log_df.take(5)
 )

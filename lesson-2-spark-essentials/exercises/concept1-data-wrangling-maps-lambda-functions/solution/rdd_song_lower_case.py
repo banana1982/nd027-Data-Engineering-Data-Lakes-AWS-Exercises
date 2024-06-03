@@ -2,8 +2,8 @@
 # You might have noticed this code in the screencast.
 #
 # import findspark
+# findspark.init()
 # findspark.init('spark-2.3.2-bin-hadoop2.7')
-#
 # The findspark Python module makes it easier to install
 # Spark in local mode on your computer. This is convenient
 # for practicing Spark syntax locally. 

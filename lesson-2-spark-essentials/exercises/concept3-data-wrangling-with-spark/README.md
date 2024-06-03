@@ -275,3 +275,14 @@ user_log_valid = user_log_valid.withColumn("phase", Fsum("downgraded").over(wind
 ```python
 user_log_valid.select(["userId", "firstname", "ts", "page", "level", "phase"]).where(user_log.userId == "1138").sort("ts").collect()
 ```
+
+
+# Python
+ ## Ctrl+Shift+P type => Python: Create Environment => Select python version interative
+    - C:\Users\CuongLT\AppData\Local\Programs\Python\Python311
+ ## reinstall libs => pip install pyspark datetime numpy pandas matplotlib
+
+# Note: 
+    - Python 3.12.8 has error with p4jy ... libs
+
+
