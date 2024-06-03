@@ -39,7 +39,7 @@ The `project` folder should contain all files and instructions necessary for set
 
 # Python
  ## Ctrl+Shift+P type => Python: Create Environment => Select python version interative
-    - C:\Users\CuongLT\AppData\Local\Programs\Python\Python311
+    - C:\Users\...\AppData\Local\Programs\Python\Python311
  ## reinstall libs => pip install pyspark datetime numpy pandas matplotlib
 
 # Note: 
