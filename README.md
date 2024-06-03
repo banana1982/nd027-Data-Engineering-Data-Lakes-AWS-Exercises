@@ -35,3 +35,12 @@ Each `lesson` folder contains an `exercises` folder. This `exercises` folder sho
 ### Project Folder
 
 The `project` folder should contain all files and instructions necessary for setup. If possible, a set of instructions should be provided for both Udacity workspaces and a way to work locally (for both MacOS and Windows OS). At a minimum, one set of instructions should be provided. A `README` template has been provided in the project folder. This template layout should be used to write your README.
+
+
+# Python
+ ## Ctrl+Shift+P type => Python: Create Environment => Select python version interative
+    - C:\Users\CuongLT\AppData\Local\Programs\Python\Python311
+ ## reinstall libs => pip install pyspark datetime numpy pandas matplotlib
+
+# Note: 
+    - Python 3.12.8 has error with p4jy ... libs
