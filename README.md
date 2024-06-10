@@ -44,3 +44,7 @@ The `project` folder should contain all files and instructions necessary for set
 
 # Note: 
     - Python 3.12.8 has error with p4jy ... libs
+
+    - Update Python Environment Variables 
+
+    - 

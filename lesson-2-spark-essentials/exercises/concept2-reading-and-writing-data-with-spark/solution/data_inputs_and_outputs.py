@@ -1,5 +1,10 @@
 from pyspark.sql import SparkSession
 
+import os
+import sys
+
+os.environ['PYSPARK_PYTHON'] = sys.executable
+os.environ['PYSPARK_DRIVER_PYTHON'] = sys.executable
 
 # Because we aren't running on a spark cluster, the session is just for development
 spark = SparkSession \
