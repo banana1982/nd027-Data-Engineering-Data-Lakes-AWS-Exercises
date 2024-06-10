@@ -36,6 +36,13 @@ Each `lesson` folder contains an `exercises` folder. This `exercises` folder sho
 
 The `project` folder should contain all files and instructions necessary for setup. If possible, a set of instructions should be provided for both Udacity workspaces and a way to work locally (for both MacOS and Windows OS). At a minimum, one set of instructions should be provided. A `README` template has been provided in the project folder. This template layout should be used to write your README.
 
+### Submit Folder 
+
+This folder contain all my submit project include sub-folders:
+- glue_scripts    => All python glue job scripts
+- screenshots     => All screenshots query in Athena
+- sql             => All sql file DLL
+
 
 # Python
  ## Ctrl+Shift+P type => Python: Create Environment => Select python version interative
